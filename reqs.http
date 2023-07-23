@@ -1,0 +1,16 @@
+@server = https://luisangelri-refactored-carnival-4x999j99r742gvg-8080.preview.app.github.dev
+
+@emp = {{server}}/api/employees
+###
+
+GET {{emp}}
+
+###
+POST {{emp}}
+Content-Type: application/json
+
+{
+    "firstName": "Bilbo",
+    "lastName": "Baggins",
+    "description": "burglarr"
+}
